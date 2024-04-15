@@ -1,5 +1,5 @@
 import { ElementHandle, JSHandle, Page } from 'puppeteer';
-import easylist from './easylist_selectors.json' assert { type: "json" };
+import easylist from './easylist_selectors.json' with { type: "json" };
 
 // Add any custom ad selectors here.
 const combinedSelectors = easylist.concat([
